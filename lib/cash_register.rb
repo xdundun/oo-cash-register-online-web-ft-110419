@@ -10,7 +10,7 @@ class CashRegister
 
   def add_item(item,cost,quantity=1)
     @total += cost * quantity
-    quantity.each { |q|
+    while quantity <= 1 { |q|
     @items << item
     }
   end
