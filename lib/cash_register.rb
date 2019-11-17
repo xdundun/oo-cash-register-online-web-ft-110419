@@ -14,7 +14,7 @@ class CashRegister
   def add_item(item,cost,quantity=1)
     @total += cost * quantity
     @prices[:item] << cost
-    @prices[:item] << quan
+    @prices[:item] << quantity
       quantity.times do |q|
         @items << item
       end
