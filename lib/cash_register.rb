@@ -14,13 +14,11 @@ class CashRegister
       quantity.times do |q|
         @items << item
       end
-      if @discount != 0
-        apply_discount
-      end
   end
 
   def apply_discount
-    if @discount != 0
+      if discount == 0
+
 
   end
 
