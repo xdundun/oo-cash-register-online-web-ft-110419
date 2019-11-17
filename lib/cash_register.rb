@@ -33,6 +33,7 @@ class CashRegister
     #@total -= @prices[-1][0] * @prices[-1][1]
     puts  @prices
     puts @total
+    puts @total - @prices[0][-1]
   end
 
   def items
