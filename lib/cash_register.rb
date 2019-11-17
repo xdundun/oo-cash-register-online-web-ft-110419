@@ -8,4 +8,4 @@ class CashRegister
   end
 
 
-end
+end #end of class
