@@ -30,9 +30,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    #@total -= @prices[-1][0] * @prices[-1][1]
-    puts  @prices
-    puts @total
     @total = @total - @prices[:item][-1]
   end
 
