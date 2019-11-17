@@ -22,7 +22,7 @@ class CashRegister
     else
       temp = total
       puts total
-      @total -= temp * discount/100
+      @total -= total * discount/100
       puts @total
     end
 
