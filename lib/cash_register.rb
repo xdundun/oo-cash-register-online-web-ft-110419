@@ -22,7 +22,7 @@ class CashRegister
     else
 
       @total -= total * discount/100
-      puts @total
+
     end
 
 
