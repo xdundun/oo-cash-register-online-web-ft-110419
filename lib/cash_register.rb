@@ -24,4 +24,5 @@ class CashRegister
   def items
     @items
   end
+  
 end #end of class
