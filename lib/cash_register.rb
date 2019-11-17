@@ -20,8 +20,7 @@ class CashRegister
       if discount == 0
         puts "There is no discount to apply"
     else
-      temp = total
-      puts total
+
       @total -= total * discount/100
       puts @total
     end
