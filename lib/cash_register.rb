@@ -20,7 +20,7 @@ class CashRegister
       if discount == 0
         puts "There is no discount to apply"
     else
-      @total = total - number_to_percentage(discount)
+      @total = total* (discount/100)
       puts @total
     end
 
