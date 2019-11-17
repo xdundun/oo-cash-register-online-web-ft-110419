@@ -12,6 +12,7 @@ class CashRegister
     @total += cost * quantity
     while quantity <= 1 { |q|
     @items << item
+    quantity--
     }
   end
 
