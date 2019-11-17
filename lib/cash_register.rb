@@ -15,9 +15,9 @@ class CashRegister
 
   end
 
-  #def apply_discount
+  def apply_discount
 
-  #end
+  end
 
   def items
     @items
