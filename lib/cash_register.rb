@@ -7,7 +7,7 @@ class CashRegister
     @discount = discount
     @items = []
     @prices = {
-      :item => []
+      :item => {}
     }
   end
 
