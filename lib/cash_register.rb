@@ -11,10 +11,10 @@ class CashRegister
   def add_item(item,cost,quantity=1)
     @total += cost * quantity
 
-    while quantity <= 1 {
+    while quantity == 0
       @items << item
       quantity--
-    }
+
   end
 
   def apply_discount
