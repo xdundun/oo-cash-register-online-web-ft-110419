@@ -13,7 +13,6 @@ class CashRegister
     while quantity <= 1 do
       @items << item
       quantity--
-      end
   end
 
   def apply_discount
