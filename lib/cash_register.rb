@@ -12,7 +12,7 @@ class CashRegister
     @total += cost * quantity
     quantity.each { |q|
     @items << item
-  }
+    }
   end
 
   def apply_discount
