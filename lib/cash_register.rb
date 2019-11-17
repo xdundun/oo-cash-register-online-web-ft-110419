@@ -15,6 +15,7 @@ class CashRegister
     @total += cost * quantity
     @prices[:item] << cost
     @prices[:item] << quantity
+
       quantity.times do |q|
         @items << item
       end
