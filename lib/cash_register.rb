@@ -17,7 +17,7 @@ class CashRegister
   end
 
   def apply_discount
-      if discount == 0
+      if @discount == 0
         return "There is no discount to apply"
     else
 
