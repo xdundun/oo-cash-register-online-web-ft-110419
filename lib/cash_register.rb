@@ -14,8 +14,7 @@ class CashRegister
     until quantity == 0 do
       @items << item
       quantity--
-    end
-  end
+
   end
 
   def apply_discount
