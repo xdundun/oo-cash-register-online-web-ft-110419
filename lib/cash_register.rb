@@ -6,12 +6,14 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
-    @prices = {}
+    @prices = {
+      :item => { :cost, :quantities}
+    }
   end
 
   def add_item(item,cost,quantity=1)
     @total += cost * quantity
-
+    @prices[:item] =
       quantity.times do |q|
         @items << item
       end
