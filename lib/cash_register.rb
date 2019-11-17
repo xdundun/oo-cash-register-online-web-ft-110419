@@ -22,7 +22,7 @@ class CashRegister
     else
 
       @total -= total * discount/100
-      puts "After the discount, total comes out to $#{total}"
+      return "After the discount, total comes out to $#{total}"
     end
 
 
